@@ -6,7 +6,6 @@ Automatically blocks the interface when the daily closed loss reaches the config
 
 No emotion. No second chances.
 
----
 
 ## 🎯 Objective
 
@@ -21,7 +20,6 @@ The extension:
 
 All local. No backend. No data transmission.
 
----
 
 ## ⚙️ How it Works
 
@@ -29,20 +27,18 @@ All local. No backend. No data transmission.
 2. The extension monitors the closed total
 3. When the closed value ≤ -limit
 4. The interface is automatically blocked
+5. Automatic reset the next day. 
 
-Automatic reset the next day. ---
 
 ## 🧠 Philosophy
 
-Discipline > emotion
-Rule > impulse
-System > will
+- Discipline > emotion
+- Rule > impulse
+- System > will
 
-This extension doesn't attempt to predict the market.
+*This extension doesn't attempt to predict the market.*
 
-It protects you from yourself.
-
----
+*It protects you from yourself.*
 
 ## 🛠 Installation (Developer Mode)
 
@@ -58,7 +54,6 @@ git clone https://github.com/your-username/matchtrader-extension.git
 5. Click Load uncompressed
 6. Select the project folder
 
----
 
 ## 🔒 Privacy
 
@@ -66,7 +61,6 @@ git clone https://github.com/your-username/matchtrader-extension.git
 - Everything is stored locally via chrome.storage
 - The extension only reads visual elements of the page
 
----
 
 ## 📦 Structure
 
@@ -86,7 +80,6 @@ matchtrader-extension/
 
 ```
 
----
 
 ## ⚠️ Limitations
 
@@ -94,7 +87,6 @@ matchtrader-extension/
 - May break if the platform changes the DOM
 - The lock is local (user can remove the extension)
 
----
 
 ## 🧩 License
 
