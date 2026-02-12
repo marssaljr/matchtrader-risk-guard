@@ -1,0 +1,27 @@
+{
+   "name": "MatchTraderLimiter",
+   "description": "A MatchTrader Extension that blocks platform after losses",
+   "version": "1.0",
+   "manifest_version": 3,
+   "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
+   },
+   "content_scripts": [
+      {
+         "js": [
+            "scripts/content.js"
+         ],
+         "matches": [
+            "https://mtr.goatfundedtrader.com/*"
+         ]
+      }
+   ],
+   "background": {
+      "service_worker": "scripts/service_worker.js"
+   },
+   "permissions": [
+      "activeTab",
+      "storage"
+   ]
+}
