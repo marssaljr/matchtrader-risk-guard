@@ -1,7 +1,7 @@
 {
-   "name": "MatchTraderLimiter",
-   "description": "A MatchTrader Extension that blocks platform after losses",
-   "version": "1.0",
+   "name": "MatchTrader Risk Guard",
+   "description": "Automatically blocks MatchTrader when your daily closed loss limit is reached",
+   "version": "1.0.1",
    "manifest_version": 3,
    "action": {
       "default_popup": "index.html",
