@@ -13,7 +13,7 @@
             "scripts/content.js"
          ],
          "matches": [
-            "https://mtr.goatfundedtrader.com/*"
+            "<all_urls>"
          ]
       }
    ],

@@ -341,6 +341,7 @@ chrome.runtime.sendMessage({ type: "GET_STATE" }, (state) => {
 
 window.addEventListener('load', () => {
   setTimeout(() => {
+    if (!document.querySelector('[data-testid="trade-funds"]')) return;
     getUITabs();
 
     setInterval(() => {
