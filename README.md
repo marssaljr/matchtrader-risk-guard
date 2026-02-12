@@ -1,4 +1,4 @@
-# 🚫 MatchTrader Risk Guard
+# 🛡️ MatchTrader Risk Guard
 
 Extension for disciplined risk control in MatchTrader.
 
@@ -67,12 +67,9 @@ git clone https://github.com/your-username/matchtrader-extension.git
 ```pgsql
 matchtrader-extension/
 ├── scripts/
-
-├── content.js
-
-├── popup.js
-
-├── service_worker.js
+   ├── content.js
+   ├── popup.js
+   ├── service_worker.js
 ├── icon.png
 ├── index.html
 ├── manifest.json
