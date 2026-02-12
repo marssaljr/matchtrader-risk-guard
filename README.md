@@ -23,6 +23,9 @@ All local. No backend. No data transmission.
 
 ## ⚙️ How it Works
 
+<img width="269" height="360" alt="image" src="https://github.com/user-attachments/assets/c4066d79-8f30-4611-a58e-feda88dfda04" />
+<img width="862" height="497" alt="image" src="https://github.com/user-attachments/assets/04c33fe4-3499-4b46-949c-8b1b6f331927" />
+
 1. User sets a daily limit in USD
 2. The extension monitors the closed total
 3. When the closed value ≤ -limit
